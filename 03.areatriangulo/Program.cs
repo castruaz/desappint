@@ -21,12 +21,7 @@ namespace _03.areatriangulo
 
             area =  (b*a) /2 ;
 
-            Console.WriteLine($"El area es {area}");
-
-
-            
-
-
+            Console.WriteLine($"El triangulo de base {b} y altura {a} tiene una area de {area}");           
 
         }
     }
