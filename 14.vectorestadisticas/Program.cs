@@ -29,6 +29,7 @@ namespace _14.vectorestadisticas
             for(int i=0; i<v.Length; i++)
                 s+= Math.Pow(v[i]-media,2);
             return s/v.Length-1;
+            
         }
         static double media(double[] v) {
             double s=0;
