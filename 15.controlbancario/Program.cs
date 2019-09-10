@@ -57,10 +57,12 @@ namespace ControlBancario
             foreach(Cliente cte in MiBanco.Clientes) {
                 Console.WriteLine($"Cliente: {cte.Nombre}");
                 foreach(CuentaBancaria cta in cte.Cuentas) {
-                    if(cta is CuentaDeAhorros) 
+                    /*if(cta is CuentaDeAhorros) 
                         Console.WriteLine($"Cuenta de Ahorros {cta.Saldo} ");
                     else
                         Console.WriteLine($"Cuenta de Cheques {cta.Saldo} ");
+                    */
+                    Console.WriteLine($"Cuenta de {(cta is CuentaDeAhorros?"Ahorros":"Cheques")} : {cta.Saldo}");
                 }
                 Console.WriteLine("");
             }
