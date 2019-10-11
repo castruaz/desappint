@@ -52,7 +52,7 @@
             },
             "Microsoft.EntityFrameworkCore.SQLite": {
               "target": "Package",
-              "version": "[2.2.6, )"
+              "version": "(, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
